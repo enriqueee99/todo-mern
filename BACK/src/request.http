@@ -1,24 +1,24 @@
 GET http://localhost:3001/api/notes
 
 ###
-GET http://localhost:3001/api/notes/1
+GET http://localhost:3001/api/notes/6966a845123851d2c4064e6a
 
 ###
 POST http://localhost:3001/api/notes
 Content-Type: application/json
-//aqui debe haber una linea de espacio sino no funciona ahaha
+
 {
-    "title": "title of note",
+    "title": "septima nota creada",
     "description": "description of note"
 }
 
 ###
-DELETE http://localhost:3001/api/notes/1010 
+DELETE http://localhost:3001/api/notes/6966a5c3123851d2c4064e64
 
 ###
-PUT http://localhost:3001/api/notes/1010
+PUT http://localhost:3001/api/notes/6966a626123851d2c4064e66
 Content-Type: application/json
 
 {
-    "title": "title cambiado"
+    "title": "nota position 0 actualizada"
 }
