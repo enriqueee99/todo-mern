@@ -1,0 +1,24 @@
+GET http://localhost:3001/api/notes
+
+###
+GET http://localhost:3001/api/notes/1
+
+###
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+//aqui debe haber una linea de espacio sino no funciona ahaha
+{
+    "title": "title of note",
+    "description": "description of note"
+}
+
+###
+DELETE http://localhost:3001/api/notes/1010 
+
+###
+PUT http://localhost:3001/api/notes/1010
+Content-Type: application/json
+
+{
+    "title": "title cambiado"
+}
