@@ -8,8 +8,8 @@ POST http://localhost:3001/api/notes
 Content-Type: application/json
 
 {
-    "title": "septima nota creada",
-    "description": "description of note"
+    "title": "nueva nota creada desde el backend",
+    "description": "no está funcionando de momento:("
 }
 
 ###
