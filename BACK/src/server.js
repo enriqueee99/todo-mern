@@ -10,7 +10,7 @@ const app = express();
 //permite leer archivos json y transformarlos en formato object
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: ["http://localhost:5173", "https://todo-mern-note.netlify.app/"],
   }),
 );
 app.use(express.json());
